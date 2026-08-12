@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>TaskFlow Lite</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/utilities.css">
+
+</head>
+
+<body>
+
+    <!-- Animated Background -->
+    <canvas id="bgCanvas"></canvas>
+
+    <!-- Main Container -->
+
+    <div class="container">
+
+        <div class="logo">
+
+            <i class="fa-solid fa-leaf"></i>
+
+            <h1>TaskFlow Lite</h1>
+
+        </div>
+
+        <p class="subtitle">
+
+            Plan • Focus • Achieve
+
+        </p>
+
+        <!-- Form -->
+
+        <form id="taskForm">
+
+            <input
+                id="taskInput"
+                type="text"
+                maxlength="100"
+                placeholder="Enter your task...">
+
+            <button type="submit">
+
+                <i class="fa-solid fa-plus"></i>
+
+                Add
+
+            </button>
+
+        </form>
+
+        <p id="errorMessage"></p>
+
+        <!-- Filters -->
+
+        <div class="filters">
+
+            <button id="allBtn" type="button">
+
+                <i class="fa-solid fa-list"></i>
+
+                All
+
+            </button>
+
+            <button id="activeBtn" type="button">
+
+                <i class="fa-regular fa-circle"></i>
+
+                Active
+
+            </button>
+
+            <button id="completedBtn" type="button">
+
+                <i class="fa-solid fa-check"></i>
+
+                Completed
+
+            </button>
+
+        </div>
+
+        <!-- Counter -->
+
+        <div id="taskCounter">
+
+            Tasks : 0 | Completed : 0
+
+        </div>
+
+        <!-- Task List -->
+
+        <ul id="taskList"></ul>
+
+        <!-- Empty State -->
+
+        <div id="emptyState">
+
+            🌱 No Tasks Yet
+
+        </div>
+
+        <footer>
+
+            Keep Growing 🌿
+
+        </footer>
+
+    </div>
+
+    <!-- JS -->
+
+    <script type="module" src="app.js"></script>
+
+</body>
+
+</html>

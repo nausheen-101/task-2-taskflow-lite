@@ -1,0 +1,133 @@
+/* ===============================
+   UTILITIES
+================================ */
+
+/* Hide Element */
+
+.hidden{
+
+    display:none;
+
+}
+
+/* Flex */
+
+.flex{
+
+    display:flex;
+
+}
+
+/* Center */
+
+.center{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+}
+
+/* Margin Top */
+
+.mt-10{
+
+    margin-top:10px;
+
+}
+
+.mt-20{
+
+    margin-top:20px;
+
+}
+
+.mt-30{
+
+    margin-top:30px;
+
+}
+
+/* Margin Bottom */
+
+.mb-10{
+
+    margin-bottom:10px;
+
+}
+
+.mb-20{
+
+    margin-bottom:20px;
+
+}
+
+.mb-30{
+
+    margin-bottom:30px;
+
+}
+
+/* Text Align */
+
+.text-center{
+
+    text-align:center;
+
+}
+
+/* Width */
+
+.w-100{
+
+    width:100%;
+
+}
+
+/* Cursor */
+
+.pointer{
+
+    cursor:pointer;
+
+}
+
+/* Smooth Animation */
+
+.transition{
+
+    transition:0.3s ease;
+
+}
+
+/* Green Glow */
+
+.glow{
+
+    box-shadow:
+        0 0 10px rgba(0,255,136,.3),
+        0 0 20px rgba(0,255,136,.2);
+
+}
+
+/* Rounded */
+
+.round{
+
+    border-radius:12px;
+
+}
+
+/* Neon Text */
+
+.neon{
+
+    color:#00ff88;
+
+    text-shadow:
+        0 0 5px #00ff88,
+        0 0 15px #00ff88;
+
+}
